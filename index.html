@@ -1,1 +1,53 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Research and policy analysis on technology, institutions, and public life.">
+  <link rel="icon" type="image/png" href="technology-society-logo.png">
+  <title>Technology &amp; Society Institute</title>
+  <style>
+    :root{--ink:#102a43;--blue:#0b5cad;--pale:#eaf3fb;--line:#ced9e5;--paper:#f8fafc;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}a{color:inherit}
+    .site-header{min-height:84px;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:18px clamp(24px,6vw,96px);border-bottom:1px solid var(--line);background:rgba(248,250,252,.96)}
+    .brand{display:inline-flex;align-items:center;gap:12px;text-decoration:none;font-family:Georgia,serif;font-size:17px;font-weight:700;letter-spacing:.02em}.brand small{display:block;margin-top:2px;font:600 10px Arial,sans-serif;color:var(--blue);text-transform:uppercase;letter-spacing:.16em}.brand-logo{width:52px;height:52px;display:block;object-fit:contain;border-radius:50%;background:#fff}
+    nav{display:flex;gap:30px}nav a{color:#486581;font-size:14px;font-weight:700;text-decoration:none}nav a:hover,nav a:focus-visible{color:var(--blue)}
+    .hero{min-height:620px;display:flex;flex-direction:column;justify-content:center;padding:90px clamp(24px,9vw,150px);background:radial-gradient(circle at 82% 28%,#dcecf9 0,#dcecf9 13%,transparent 13.2%),linear-gradient(135deg,#f8fafc 58%,#edf5fb 58%)}
+    .eyebrow,.section-heading>p,.section-label{color:var(--blue);font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase}h1,h2,h3{font-family:Georgia,'Times New Roman',serif}h1{max-width:900px;margin:22px 0 28px;font-size:clamp(48px,7vw,92px);font-weight:500;line-height:.99;letter-spacing:-.045em}.hero-copy{max-width:720px;margin:0;color:#486581;font-size:clamp(18px,2vw,22px);line-height:1.65}.primary-link{width:fit-content;margin-top:42px;padding-bottom:7px;border-bottom:2px solid var(--blue);color:var(--blue);font-size:14px;font-weight:800;text-decoration:none}.primary-link span{margin-left:12px}
+    .research{padding:110px clamp(24px,7vw,112px);background:var(--white)}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:56px}.section-heading h2,.about h2{margin:0;font-size:clamp(36px,5vw,64px);font-weight:500;letter-spacing:-.03em}.research-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}.research-grid article{min-height:300px;padding:34px 34px 24px 0;border-bottom:1px solid var(--line)}.research-grid article+article{padding-left:34px;border-left:1px solid var(--line)}.research-grid span{color:var(--blue);font-size:12px;font-weight:800}.research-grid h3{margin:52px 0 18px;font-size:27px;font-weight:500}.research-grid p,.about p{color:#486581;line-height:1.75}
+    .about{display:grid;grid-template-columns:1fr 3fr;gap:60px;padding:110px clamp(24px,9vw,150px);background:var(--ink);color:var(--white)}.about .section-label{color:#79b8ee}.about h2{max-width:850px}.about p:not(.section-label){max-width:760px;margin:32px 0 0;color:#d9e2ec;font-size:18px}
+    footer{display:grid;grid-template-columns:1.3fr 1fr 1fr;align-items:end;gap:32px;padding:54px clamp(24px,6vw,96px);background:#071b2e;color:#bcccdc}.footer-brand{color:var(--white)}footer p{margin:0;font-size:12px;line-height:1.6}footer p:last-child{text-align:right}
+    @media(max-width:760px){.site-header{min-height:74px;padding:14px 20px}nav{gap:16px}.brand{font-size:14px}.brand-logo{width:44px;height:44px}.hero{min-height:560px;padding:72px 24px;background:linear-gradient(150deg,#f8fafc 65%,#edf5fb 65%)}h1{font-size:clamp(45px,14vw,64px)}.research{padding:80px 24px}.section-heading{display:block}.section-heading h2{margin-top:12px}.research-grid{grid-template-columns:1fr}.research-grid article{min-height:0;padding:28px 0}.research-grid article+article{padding-left:0;border-left:0}.research-grid h3{margin-top:30px}.about{grid-template-columns:1fr;gap:26px;padding:80px 24px}footer{grid-template-columns:1fr;align-items:start}footer p:last-child{text-align:left}}
+    @media(max-width:480px){nav a:first-child{display:none}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Technology and Society Institute home"><img class="brand-logo" src="technology-society-logo.png" alt=""><span>Technology &amp; Society <small>Institute</small></span></a>
+    <nav aria-label="Primary navigation"><a href="#research">Research</a><a href="#about">About</a></nav>
+  </header>
+  <main>
+    <section class="hero" id="top">
+      <div class="eyebrow">Research · Policy · Society</div>
+      <h1>Charting the course for technological integration.</h1>
+      <p class="hero-copy">The Technology &amp; Society Institute examines the relationship between technological advancement and societal development through research, policy analysis, and multidisciplinary inquiry.</p>
+      <a class="primary-link" href="#research">Explore our research <span aria-hidden="true">↓</span></a>
+    </section>
+    <section class="research" id="research" aria-labelledby="research-title">
+      <div class="section-heading"><p>Areas of inquiry</p><h2 id="research-title">Technology in context</h2></div>
+      <div class="research-grid">
+        <article><span>01</span><h3>The Digital Economy</h3><p>Research on how digital technologies reorganize markets, institutions, work, and economic life.</p></article>
+        <article><span>02</span><h3>AI and Public Policy</h3><p>Analysis of artificial intelligence, its applications, and its consequences for policy and public life.</p></article>
+        <article><span>03</span><h3>Defense and Technology Policy</h3><p>Study of the strategic, ethical, and policy implications of AI, autonomous systems, cybersecurity, and digital infrastructure.</p></article>
+      </div>
+    </section>
+    <section class="about" id="about" aria-labelledby="about-title">
+      <p class="section-label">Who we are</p><div><h2 id="about-title">Technology shapes society. Society shapes technology.</h2><p>The Institute studies technology as both an influence on social and political life and a consequence of institutional choices. Its work connects economics, public policy, political science, ethics, law, and computing to examine technological change from multiple perspectives.</p></div>
+    </section>
+  </main>
+  <footer>
+    <a class="brand footer-brand" href="#top"><img class="brand-logo" src="technology-society-logo.png" alt=""><span>Technology &amp; Society <small>Institute</small></span></a>
+    <p>Independent inquiry into technology and public life.</p><p>© 2026 Technology &amp; Society Institute</p>
+  </footer>
+</body>
+</html>
